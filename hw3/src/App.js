@@ -52,30 +52,6 @@ render() {
 }
 
 
-// class App extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {authenticated: false};
-//   }
-//   login = () => {
-//     this.setState({authenticated: true});
-//   };
-//   logout = () => {
-//     this.setState({authenticated: false});
-//   };
-//   render() {
-//     const {authenticated} = this.state;
-//     return (
-//       <div>
-//         <h1>Hello</h1>
-//         <h1>{authenticated && 'Welcome Back'}</h1>
-//         <h1>{!authenticated && 'Please Login'}</h1>
-//         <button onClick={authenticated ? this.logout : this.login}>
-//           {authenticated ? 'Logout' : 'Login'}
-//         </button>
-//       </div>
-//     );
-//   }
-// }
+
 
 export default App;
