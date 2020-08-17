@@ -9,7 +9,7 @@ class App extends React.Component{
       this.state = {
         status : 0,
         time : 0,
-        isOn : false
+        
     }
   }
 
@@ -44,7 +44,7 @@ render() {
   return (
     <div className = "container">
         <Display  time = {this.state.time}/>
-        <Btn stop = {this.stop} reset = {this.reset} start = {this.start} status ={this.state.status} isOn = {this.state.isOn} />
+        <Btn stop = {this.stop} reset = {this.reset} start = {this.start} status ={this.state.status}  />
     </div>
   )
 }
